@@ -1,0 +1,156 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Custom Styles for the project */
+
+:root {
+
+  font-family: "Inter", sans-serif;
+
+  /* Colors */
+  --primary-color: #0070FF;
+  --secondary-color: #D1EDF5;
+
+  /* Font sizes */
+  --xlarge-text:64px;
+  --large-text: 42px;
+  --medium-text: 20px;
+  --normal-text: 16px;
+  --small-text: 14px;
+  --tiny-text: 12px
+
+}
+
+@media(max-width:575px){
+
+}
+
+.dgray{
+  color: var(--dark-gray);
+}
+.dnavy{
+  color: var(--dark-navy);
+}
+
+/* Primary Color Classes */
+.p_color{  /* for text color */
+  color: var(--primary-color);
+}
+
+.bg_p_color{ /* for background color */
+  background-color:var(--primary-color) ;
+}
+
+/* Secondary Color Classes */
+.s_color{ /* for text color */
+  color: var(--secondary-color);
+}
+.bg_s_color{ /* for background color */
+  background-color:var(--secondary-color) ;
+}
+
+
+/* Font size classes */
+.xl_text{
+  font-size: var(--xlarge-text);
+}
+.lg_text{
+  font-size: var(--large-text);
+}
+.md_text{
+  font-size: var(--medium-text);
+}
+.no_text{
+  font-size: var(--normal-text);
+}
+.sm_text{
+  font-size: var(--small-text);
+}
+.tn_text{
+  font-size: var(--tiny-text);
+}
+
+/* Custom button class */
+.p_btn{
+  background-color: var(--primary-color);
+  border: unset;
+  color: white;
+}
+
+/* custom border */
+.custom-dotted-border {
+  border-style: dashed;
+  border-color: #D1D5DB; 
+  border-width: 1px;
+  border-radius: 8px;
+  border-spacing: 10px; 
+}
+
+.text-base-medium {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  text-align: left;
+}
+
+.text-base-semibold {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  text-align: center;
+  color: #3B82F6;
+}
+
+.text-sm-medium {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  text-align: center;
+}
+
+.text-md-semibold {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  text-align: center;
+}
+
+.bg-custom-blue {
+  background-color: #0070FF;
+}
+
+.custom-shadow {
+  @apply shadow-lg;
+  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.06), 
+              0 1px 2px rgba(0, 0, 0, 0.06),
+              0 2px 4px rgba(0, 0, 0, 0.06), 
+              0 4px 6px rgba(0, 0, 0, 0.06),
+              0 0px 0px rgba(0, 0, 0, 0.06);
+}
+.no_select {
+  user-select: none; /* Standard syntax */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+/* Form error classes */
+input.input-error,
+select.input-error {
+  border-color: #fc8181;
+}
+
+.error {
+  color: #fc8181;
+  font-size: 0.75rem;
+  text-align: left;
+  margin-top: 0.25rem;
+}
+
+button:disabled {
+  opacity: 0.35;
+}

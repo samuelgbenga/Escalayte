@@ -1,0 +1,46 @@
+
+.formContainer{
+  /* box-shadow: 0px 8px 8px -4px #1018280A; */
+  box-shadow: 0px 20px 24px -4px #1018281A;
+  /* border: 1px solid red; */
+
+    
+}
+
+.formInput{
+    margin-bottom: 12px;
+}
+.formInput label{
+    margin-bottom: 5px;
+}
+
+.formInput label:not(.exclude)::after {
+    content: '*';
+    color: red;
+    position: absolute;
+    margin-left: 2px;
+  }
+
+
+
+.formInput input{
+    border: 1.9px solid #0070FF;
+    height: 48px;
+
+}
+
+.formInput input::placeholder{
+
+    font-size: var(--normal-text);
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.formContainer button{
+    height: 44px;
+}
+
+.loginImgDiv{
+
+}
+

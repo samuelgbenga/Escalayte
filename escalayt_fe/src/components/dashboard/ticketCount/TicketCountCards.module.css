@@ -1,0 +1,100 @@
+
+.ticketCountCard{
+  height: 100px;
+  width: 23%;
+  padding: 13px 25px;
+  /* border: 1px solid red; */  
+}
+
+@media(max-width:1023px){
+  .ticketCountCard{
+    width: 30%;
+  }
+}
+
+
+.ticketCountTitleWrapper{
+  margin-bottom: 10px;
+}
+
+.ticketCountCardTitle{
+  font-size: var(--normal-text);
+
+  color: #4F4F4F;
+}
+
+.ticketCount{
+  font-size: 32px;
+  font-weight: 500;
+}
+
+
+
+/* 
+.buttonGroup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+  
+  .dashboardButton {
+    background-color: white;
+    color: #4F4F4F;
+    border: none;
+    
+    padding: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    width: 250px;
+    
+  }
+  
+  .totalTicketsButton {
+    background-color: #e3f2fd;
+  }
+  
+  .openTicketsButton {
+    background-color: #ffebee;
+  }
+  
+  .inProgressTicketsButton {
+    background-color: #fff8e1;
+  }
+  
+  .resolvedTicketsButton {
+    background-color: #e8f5e9;
+  }
+  
+  .dashboardButton:hover {
+    opacity: 0.9;
+  }
+  
+  .buttonImg {
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+  }
+  
+  .ticketCount {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .buttonContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .buttonText {
+    flex: 1;
+    text-align: left;
+  }
+   */
